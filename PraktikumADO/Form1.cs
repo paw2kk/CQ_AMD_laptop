@@ -123,8 +123,15 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();    
                 
-                string query = "SELECT COUNT(*) FROM Dosen";    
+                string query = "SELECT COUNT(*) FROM Dosen";
 
+                cmd = new SqlCommand(query, conn);
+
+                int jumlah = (int)cmd.ExecuteScalar();
+
+                txtHasilDosen.Text = jumlah.ToString();
+
+                conn.Close();
             }
         }
     }
