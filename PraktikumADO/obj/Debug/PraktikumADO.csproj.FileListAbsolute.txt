@@ -1,0 +1,10 @@
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.csproj.AssemblyReference.cache
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.Form1.resources
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.Properties.Resources.resources
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.csproj.GenerateResource.cache
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.csproj.CoreCompileInputs.cache
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\bin\Debug\PraktikumADO.exe.config
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\bin\Debug\PraktikumADO.exe
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\bin\Debug\PraktikumADO.pdb
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.exe
+C:\Users\hp victus\source\repos\PraktikumADO\PraktikumADO\obj\Debug\PraktikumADO.pdb

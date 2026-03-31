@@ -32,11 +32,11 @@
             this.btnHitungMhs = new System.Windows.Forms.Button();
             this.btnHitungMK = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnHitungDosen = new System.Windows.Forms.Button();
             this.btnUpdateSKS = new System.Windows.Forms.Button();
             this.btnInsertProdi = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtHasil = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -79,22 +79,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(294, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(388, 20);
-            this.textBox1.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(196, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Hasil";
-            // 
             // btnHitungDosen
             // 
             this.btnHitungDosen.Location = new System.Drawing.Point(151, 280);
@@ -125,16 +109,33 @@
             this.btnInsertProdi.UseVisualStyleBackColor = true;
             this.btnInsertProdi.Click += new System.EventHandler(this.btnInsertProdi_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(148, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Hasil";
+            // 
+            // txtHasil
+            // 
+            this.txtHasil.Location = new System.Drawing.Point(294, 74);
+            this.txtHasil.Name = "txtHasil";
+            this.txtHasil.Size = new System.Drawing.Size(388, 20);
+            this.txtHasil.TabIndex = 10;
+            this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtHasil);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnInsertProdi);
             this.Controls.Add(this.btnUpdateSKS);
             this.Controls.Add(this.btnHitungDosen);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnHitungMK);
             this.Controls.Add(this.btnHitungMhs);
@@ -152,11 +153,11 @@
         private System.Windows.Forms.Button btnHitungMhs;
         private System.Windows.Forms.Button btnHitungMK;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnHitungDosen;
         private System.Windows.Forms.Button btnUpdateSKS;
         private System.Windows.Forms.Button btnInsertProdi;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtHasil;
     }
 }
 

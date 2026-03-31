@@ -15,7 +15,7 @@ namespace PraktikumADO
     {
 
         SqlConnection conn;
-        SqlConnection cmd;
+        SqlCommand cmd;
 
         public Form1()
         {
@@ -24,14 +24,14 @@ namespace PraktikumADO
         private void Koneksi()
         {
             conn = new SqlConnection(
-                "Data Source=LAPTOP-1QL3V291\\PAW;Initial Catalog=PraktikumADO;Integrated Security=True\"
+                "Data Source=LAPTOP-1QL3V291\\PAW;Initial Catalog=DBAkademikADO;Integrated Security=True"
                 );
         }
 
         private void btnHitungMK_Click(object sender, EventArgs e)
         {
             try
-            {
+            {   
                 Koneksi();
                 conn.Open();
 
@@ -129,7 +129,7 @@ namespace PraktikumADO
 
                 int jumlah = (int)cmd.ExecuteScalar();
 
-                txtHasilDosen.Text = jumlah.ToString();
+                txtHasil.Text = jumlah.ToString();
 
                 conn.Close();
             }
@@ -185,5 +185,9 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void txtHasil_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
-}
