@@ -116,5 +116,16 @@ namespace PraktikumADO
             }
         }
 
+        private void btnHitungDosen_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();    
+                
+                string query = "SELECT COUNT(*) FROM Dosen";    
+
+            }
+        }
     }
 }
