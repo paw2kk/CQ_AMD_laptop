@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnHitungDosen = new System.Windows.Forms.Button();
             this.btnUpdateSKS = new System.Windows.Forms.Button();
+            this.btnInsertProdi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -98,7 +99,7 @@
             // 
             this.btnHitungDosen.Location = new System.Drawing.Point(151, 280);
             this.btnHitungDosen.Name = "btnHitungDosen";
-            this.btnHitungDosen.Size = new System.Drawing.Size(144, 23);
+            this.btnHitungDosen.Size = new System.Drawing.Size(218, 23);
             this.btnHitungDosen.TabIndex = 6;
             this.btnHitungDosen.Text = "Hitung Dosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
@@ -107,16 +108,26 @@
             // 
             this.btnUpdateSKS.Location = new System.Drawing.Point(421, 279);
             this.btnUpdateSKS.Name = "btnUpdateSKS";
-            this.btnUpdateSKS.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdateSKS.Size = new System.Drawing.Size(261, 23);
             this.btnUpdateSKS.TabIndex = 7;
             this.btnUpdateSKS.Text = "Update SKS";
             this.btnUpdateSKS.UseVisualStyleBackColor = true;
+            // 
+            // btnInsertProdi
+            // 
+            this.btnInsertProdi.Location = new System.Drawing.Point(294, 344);
+            this.btnInsertProdi.Name = "btnInsertProdi";
+            this.btnInsertProdi.Size = new System.Drawing.Size(229, 23);
+            this.btnInsertProdi.TabIndex = 8;
+            this.btnInsertProdi.Text = "Insert Prodi";
+            this.btnInsertProdi.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInsertProdi);
             this.Controls.Add(this.btnUpdateSKS);
             this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.label1);
@@ -142,6 +153,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnHitungDosen;
         private System.Windows.Forms.Button btnUpdateSKS;
+        private System.Windows.Forms.Button btnInsertProdi;
     }
 }
 
